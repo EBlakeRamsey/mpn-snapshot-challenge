@@ -1,0 +1,29 @@
+.more-info {
+    position: relative;
+    display: inline-block;
+}
+
+.more-info .mouseover-text {
+    visibility: hidden;
+    width: 220px;
+    background: black;
+    color: white;
+    text-align: center;
+    border-radius: 15px;
+    border: black;
+    padding: 10px 10px;
+
+    /* Positioning */
+    position: absolute;
+    z-index: 1;
+    left: 105%;
+    top: 5px;
+}
+
+.more-info:hover .mouseover-text {
+    visibility: visible;
+}
+
+.follow-up-question {
+    display: none;
+}
